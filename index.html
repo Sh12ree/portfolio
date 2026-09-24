@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shree Satyal — Information Technology student and graduating senior at George Mason University.">
+  <title>Shree Satyal | IT Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#home">SS<span>.</span></a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <nav id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">INFORMATION TECHNOLOGY • GEORGE MASON UNIVERSITY</p>
+        <h1>Hi, I'm <span>Shree Satyal.</span></h1>
+        <h2>Graduating Senior &amp; Technology Enthusiast</h2>
+        <p class="lead">
+          I build practical, user-focused web applications and interactive experiences
+          using modern web technologies, APIs, and thoughtful interface design.
+        </p>
+        <div class="buttons">
+          <a class="btn primary" href="#projects">View My Work</a>
+          <a class="btn secondary" href="#contact">Let's Connect</a>
+        </div>
+        <div class="quick-contact">
+          <a href="mailto:shreesatyal34@gmail.com">shreesatyal34@gmail.com</a>
+          <span>•</span>
+          <a href="tel:+17036220899">703-622-0899</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="orb"></div>
+        <div class="code-card">
+          <span class="code-dot"></span><span class="code-dot"></span><span class="code-dot"></span>
+          <pre><code>const developer = {
+  name: "Shree Satyal",
+  school: "George Mason University",
+  graduation: "December 2026",
+  focus: [
+    "Web Development",
+    "UI/UX",
+    "APIs",
+    "JavaScript"
+  ]
+};</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-heading">
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>Turning ideas into working experiences.</h2>
+      </div>
+      <div class="about-grid">
+        <p>
+          I'm an Information Technology student at George Mason University, graduating
+          in December 2026. I enjoy creating websites and applications that combine
+          clean interfaces with useful functionality.
+        </p>
+        <p>
+          My projects include an AI-powered product advisor, a NASA image explorer,
+          an interactive charity-water game, an event check-in application, and a
+          multilingual sustainability timeline.
+        </p>
+      </div>
+      <div class="education">
+        <div>
+          <span class="label">DEGREE</span>
+          <strong>B.S. in Information Technology</strong>
+        </div>
+        <div>
+          <span class="label">UNIVERSITY</span>
+          <strong>George Mason University</strong>
+        </div>
+        <div>
+          <span class="label">GRADUATION</span>
+          <strong>December 2026</strong>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">SKILLS</p>
+        <h2>Tools I use to build.</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill"><span>01</span><h3>Web Development</h3><p>HTML, CSS, JavaScript, responsive layouts and interactive interfaces.</p></div>
+        <div class="skill"><span>02</span><h3>APIs &amp; AI</h3><p>Working with REST APIs, NASA APIs and AI-powered application features.</p></div>
+        <div class="skill"><span>03</span><h3>UI / UX</h3><p>User-centered interfaces, usability-focused design and interactive prototypes.</p></div>
+        <div class="skill"><span>04</span><h3>Programming</h3><p>JavaScript, Node.js, C++, SQL and application development fundamentals.</p></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="section-heading">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>Projects I've built.</h2>
+        <p>Explore the live projects below.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-number">01</div>
+          <div class="project-content">
+            <p class="tag">AI • WEB APP</p>
+            <h3>L'Oréal Smart Product Advisor</h3>
+            <p>An AI-powered product experience for personalized skincare, makeup and haircare recommendations. Users can select products, generate a routine and ask questions about their routine.</p>
+            <div class="tech"><span>JavaScript</span><span>OpenAI API</span><span>Cloudflare Worker</span></div>
+            <a href="https://sh12ree.github.io/lorealchat/" target="_blank" rel="noopener">View Live Project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">02</div>
+          <div class="project-content">
+            <p class="tag">NASA • API</p>
+            <h3>NASA Space Explorer</h3>
+            <p>An interactive explorer that uses NASA's Astronomy Picture of the Day API. Users select a date range and discover space images and information.</p>
+            <div class="tech"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>NASA API</span></div>
+            <a href="https://sh12ree.github.io/07-nasa-space-explorer/" target="_blank" rel="noopener">View Live Project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">03</div>
+          <div class="project-content">
+            <p class="tag">GAME • INTERACTION</p>
+            <h3>WaterQuest</h3>
+            <p>An interactive charity-water game where players deliver clean water to villagers, complete levels and earn badges while managing a time-based challenge.</p>
+            <div class="tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a href="https://sh12ree.github.io/Waterquest/" target="_blank" rel="noopener">View Live Project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">04</div>
+          <div class="project-content">
+            <p class="tag">JAVASCRIPT • EVENT APP</p>
+            <h3>Intel Sustainability Summit</h3>
+            <p>A sustainability event check-in system where attendees enter their names, select a team and check in while team attendance is tracked.</p>
+            <div class="tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a href="https://sh12ree.github.io/01-prj-personal-site/" target="_blank" rel="noopener">View Live Project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">05</div>
+          <div class="project-content">
+            <p class="tag">LOCALIZATION • TIMELINE</p>
+            <h3>Intel Sustainability Timeline</h3>
+            <p>A localized sustainability timeline presenting milestones from Intel's history, with an Arabic interface and interactive timeline content.</p>
+            <div class="tech"><span>HTML</span><span>CSS</span><span>Localization</span></div>
+            <a href="https://sh12ree.github.io/-03-prj-intel-localization/" target="_blank" rel="noopener">View Live Project ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-box">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>Let's build something useful.</h2>
+        <p>I'm open to connecting about technology, projects, internships, and career opportunities.</p>
+        <div class="contact-links">
+          <a href="mailto:shreesatyal34@gmail.com"><span>Email</span><strong>shreesatyal34@gmail.com ↗</strong></a>
+          <a href="tel:+17036220899"><span>Phone</span><strong>703-622-0899 ↗</strong></a>
+          <a href="https://www.linkedin.com/in/shree-satyal-324498222" target="_blank" rel="noopener"><span>LinkedIn</span><strong>linkedin.com/in/shree-satyal-324498222 ↗</strong></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div><strong>Shree Satyal</strong><span>Information Technology • George Mason University</span></div>
+    <p>© <span id="year"></span> Shree Satyal. Built with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
